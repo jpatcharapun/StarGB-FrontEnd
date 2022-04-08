@@ -1,7 +1,7 @@
-import { ChainId, JSBI, Percent, Token } from '@pancakeswap/sdk'
+import { ChainId, JSBI, Percent, Token } from '@jpatcharapun/stargb-sdk'
 import { mainnetTokens, testnetTokens } from './tokens'
 
-export const ROUTER_ADDRESS = '0x10ED43C718714eb63d5aA57B78B54704E256024E'
+export const ROUTER_ADDRESS = '0xA81Ad41C6883490b7F574B4321da938c82b78E88'
 
 // a list of tokens by chain
 type ChainTokenList = {
