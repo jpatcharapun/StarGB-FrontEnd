@@ -43,7 +43,7 @@ const PhishingWarningBanner: React.FC = () => {
   const { t } = useTranslation()
   const [, hideBanner] = usePhishingBannerManager()
   const { isMobile, isMd } = useMatchBreakpoints()
-  const warningText = t("please make sure you're visiting https://pancakeswap.finance - check the URL carefully.")
+  const warningText = t("Hello We Are New Token and Exchange In Here :: STARGB :: [Star Gooseberry].")
   const warningTextAsParts = warningText.split(/(https:\/\/pancakeswap.finance)/g)
   const warningTextComponent = (
     <>
@@ -56,8 +56,8 @@ const PhishingWarningBanner: React.FC = () => {
           key={i}
           small
           as="span"
-          bold={text === 'https://pancakeswap.finance'}
-          color={text === 'https://pancakeswap.finance' ? '#FFFFFF' : '#BDC2C4'}
+          bold={text === 'https://star-gb-front-end.vercel.app'}
+          color={text === 'https://star-gb-front-end.vercel.app' ? '#FFFFFF' : '#BDC2C4'}
         >
           {text}
         </Text>

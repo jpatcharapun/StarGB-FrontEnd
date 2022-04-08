@@ -35,7 +35,7 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         eventStatus: [SaleStatusEnum.Pending, SaleStatusEnum.Premint],
       }),
       title: t('Activate your profile'),
-      bodyText: [t('You’ll need an active StarGB Profile to buy Minting Tickets and mint a Pancake Squad NFT!')],
+      bodyText: [t('You’ll need an active StarGB Profile to buy Minting Tickets and mint a StarGB Squad NFT!')],
       buttons: (
         <>
           <ActivateProfileButton userStatus={userStatus} t={t} />
@@ -56,7 +56,7 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         <>
           <Button
             as="a"
-            href="https://StarGB.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+            href="https://star-gb-front-end.vercel.app/swap?outputCurrency=0xb5EC484f0271f579Ae1Cc52fB1e402ff4472eF2f"
             target="_blank"
             width="100%"
           >
@@ -116,7 +116,7 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
       }),
       title: t('Claim Phase'),
       bodyText: [
-        t('During this phase, any wallet holding a Squad Ticket can redeem their ticket to claim a Pancake Squad NFT.'),
+        t('During this phase, any wallet holding a Squad Ticket can redeem their ticket to claim a StarGB Squad NFT.'),
       ],
       buttons: (
         <>

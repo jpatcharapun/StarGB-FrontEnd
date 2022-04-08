@@ -32,6 +32,7 @@ export default function CurrencyLogo({
       }
       return [getTokenLogoURL(currency.address)]
     }
+   
     return []
   }, [currency, uriLocations])
 
