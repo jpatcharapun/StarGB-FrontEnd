@@ -93,8 +93,8 @@ const config = {
   async headers() {
     return [
       {
-        // matching all API routes
-        source: '/swap/:path*',
+        // matching all routes
+        source: '/:path*',
         headers: [
           { key: 'Access-Control-Allow-Credentials', value: 'true' },
           { key: 'Access-Control-Allow-Origin', value: '*' },
