@@ -2060,7 +2060,6 @@ export const testnetTokens = defineTokens({
     'Bakeryswap Token',
     'https://www.bakeryswap.org/',
   ),
-
 } as const)
 
 const tokens = () => {

@@ -43,7 +43,7 @@ const PhishingWarningBanner: React.FC = () => {
   const { t } = useTranslation()
   const [, hideBanner] = usePhishingBannerManager()
   const { isMobile, isMd } = useMatchBreakpoints()
-  const warningText = t("Hello We Are New Token and Exchange In Here :: STARGB :: [Star Gooseberry].")
+  const warningText = t('Hello We Are New Token and Exchange :: STARGB :: [Star Gooseberry]')
   const warningTextAsParts = warningText.split(/(https:\/\/pancakeswap.finance)/g)
   const warningTextComponent = (
     <>
